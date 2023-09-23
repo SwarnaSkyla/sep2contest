@@ -1,0 +1,40 @@
+
+body{
+  background-color: rgb(29, 29, 90);
+  /* scroll-behavior: unset; */
+}.search-bar{
+  display: flex;
+  gap:30px;
+  padding:50px;
+  justify-content: center;
+  flex-flow: 1;
+}
+.search-bar input{
+  flex-grow: 0.5;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.book-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  flex-wrap: wrap;
+  gap:30px; 
+  
+  
+}
+
+.book-item{
+  padding: 10px;
+  width:30%;
+  height: 30%;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.book-item img{
+  width:40%;
+  border-radius: 20px;
+
+}
